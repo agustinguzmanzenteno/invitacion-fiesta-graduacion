@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   CalendarDays,
-  Check,
   ChevronDown,
   Clock3,
   GraduationCap,
@@ -33,7 +32,6 @@ function useCountdown() {
 
 export default function App() {
   const [opened, setOpened] = useState(false);
-  const [confirmed, setConfirmed] = useState(false);
   const countdown = useCountdown();
   const eventHasArrived = countdown.every(([, value]) => value === 0);
   const confirmByWhatsApp = () => {
