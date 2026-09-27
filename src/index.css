@@ -10,17 +10,20 @@
 .thirty-celebration small{margin-top:6px;color:#74518d;font-size:.83rem;font-style:italic}
 .thirty-years{
   gap:14px;
-  font-family:Arial,sans-serif;
+  font-family:Georgia,"Times New Roman",serif;
 }
 .thirty-years b{
   margin:0;
   color:#74518d;
-  font-size:clamp(1.15rem,3vw,1.45rem);
-  font-style:normal;
-  font-weight:900;
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:clamp(1.65rem,4.8vw,2.35rem);
+  font-style:italic;
+  font-weight:700;
   letter-spacing:0;
-  line-height:1;
+  line-height:.9;
   text-transform:none;
+  text-shadow:0 2px 0 rgba(255,255,255,.95);
+  font-variant-ligatures:none;
 }
 .thirty-years>span{
   margin:0;
