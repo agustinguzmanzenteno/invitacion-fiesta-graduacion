@@ -75,7 +75,10 @@ export default function App() {
               <p className="kicker green">Primera razón para celebrar</p>
               <p className="bows">୨ৎ · ୨ৎ</p>
               <h1>Fiesta <span>Tropi Coqueta</span></h1>
-              <div className="thirty-celebration thirty-years"><b>Mis</b><span>30</span></div>
+              <div className="thirty-celebration thirty-years">
+                <b>Mis</b>
+                <span>30</span>
+              </div>
               <p className="celebrant">Alejandra Guzman Zenteno</p>
               <div className="pearl-rule"><span /><b>◉</b><span /></div>
               <p className="tropical-body">Entre flores, colores tropicales, lazos y mucha alegría, quiero celebrar un nuevo año de vida junto a las personas que más quiero.</p>
